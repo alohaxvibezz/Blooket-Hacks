@@ -1,6 +1,1 @@
-setInterval(function () {
-  var hack = Object.values(document.querySelector('#app > div > div'))[1].children[0]['_owner'].stateNode.state.question
-  try {
-    hack.correctAnswers = hack.answers
-  } catch (err) {}
-})
+(function()%7BsetInterval(function%20()%20%7B%0A%20%20var%20hack%20%3D%20Object.values(document.querySelector('%23app%20%3E%20div%20%3E%20div'))%5B1%5D.children%5B0%5D%5B'_owner'%5D.stateNode.state.question%0A%20%20try%20%7B%0A%20%20%20%20hack.correctAnswers%20%3D%20hack.answers%0A%20%20%7D%20catch%20(err)%20%7B%7D%0A%7D)%7D)()%3B
